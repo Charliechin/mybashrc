@@ -233,3 +233,12 @@ fi
 # gem install 'need_for_type'
 # anytime in the terminal type 'need_for_type'
 
+# Run Chrome in App Mode (hides address bars / tabs)
+# google-chrome --app=https://google.com 
+
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/home/carlos/Downloads/google-cloud-sdk-232.0.0-linux-x86_64/google-cloud-sdk/path.bash.inc' ]; then . '/home/carlos/Downloads/google-cloud-sdk-232.0.0-linux-x86_64/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/home/carlos/Downloads/google-cloud-sdk-232.0.0-linux-x86_64/google-cloud-sdk/completion.bash.inc' ]; then . '/home/carlos/Downloads/google-cloud-sdk-232.0.0-linux-x86_64/google-cloud-sdk/completion.bash.inc'; fi
