@@ -1,0 +1,55 @@
+// My VS Code configuration (Radical Office)
+{
+  "window.zoomLevel": -1,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  "vim.handleKeys": {
+    "<C-w>": false,
+    "<C-b>": false,
+    "<C-a>": false,
+    "<C-x>": false,
+    "<C-c>": false,
+    "<C-v>": false
+  },
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  "sync.autoUpload": true,
+  "sync.autoDownload": true,
+  "sync.gist": "fc621a18d9b3c21284704ba16b1daa06",
+  "editor.minimap.enabled": false,
+  "zenMode.hideLineNumbers": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.colorCustomizations": {
+    "terminal.background": "#002B36",
+    "terminal.foreground": "#93A1A1",
+    "terminalCursor.background": "#93A1A1",
+    "terminalCursor.foreground": "#93A1A1",
+    "terminal.ansiBlack": "#002B36",
+    "terminal.ansiBlue": "#268BD2",
+    "terminal.ansiBrightBlack": "#657B83",
+    "terminal.ansiBrightBlue": "#268BD2",
+    "terminal.ansiBrightCyan": "#2AA198",
+    "terminal.ansiBrightGreen": "#859900",
+    "terminal.ansiBrightMagenta": "#6C71C4",
+    "terminal.ansiBrightRed": "#DC322F",
+    "terminal.ansiBrightWhite": "#FDF6E3",
+    "terminal.ansiBrightYellow": "#B58900",
+    "terminal.ansiCyan": "#2AA198",
+    "terminal.ansiGreen": "#859900",
+    "terminal.ansiMagenta": "#6C71C4",
+    "terminal.ansiRed": "#DC322F",
+    "terminal.ansiWhite": "#93A1A1",
+    "terminal.ansiYellow": "#B58900"
+  },
+  "terminal.integrated.fontSize": 12
+}
